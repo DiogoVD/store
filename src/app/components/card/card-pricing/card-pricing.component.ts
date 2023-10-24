@@ -9,8 +9,9 @@ export class CardPricingComponent implements OnInit {
 
   constructor() { }
   @Input()
-  gameType:string = "Digital PS4"
-  gamePrice:string = "R$ 100,00"
+  gameType:string = ""
+  @Input()
+  gamePrice:string = ""
 
   ngOnInit(): void {
   }
