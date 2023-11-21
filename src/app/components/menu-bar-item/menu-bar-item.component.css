@@ -1,7 +1,6 @@
 .menu-bar-item{
   display: flex;
-  margin: auto;
-  align-items: center;
+  margin: auto
 }
 
 .menu-bar-item > ul{
