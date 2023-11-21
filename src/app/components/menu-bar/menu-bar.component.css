@@ -9,15 +9,12 @@
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,5);
 }
 
-
-.menu-bar__logo{
-  margin-left: 30px;
+.menu-bar__container > app-menu-bar-item{
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin: auto;
 }
 
-.menu-bar__logo > img{
-  width: 140px;
-  height: 32px;
-}
+
 
